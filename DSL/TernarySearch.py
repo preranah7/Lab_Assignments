@@ -32,7 +32,7 @@ def Ternary_Search(arr,key,start,end):
         return -1
         
 result = Ternary_Search(arr,key,start,end)
-if(result != 1):
+if(result != -1):
     print(f"Element {key} found at index {result}")
 else:
     print(f"Element {key} not found in the array")
